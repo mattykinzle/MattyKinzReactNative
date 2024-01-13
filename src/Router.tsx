@@ -1,7 +1,7 @@
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 
-function Router() {
+export default function Router() {
   return (
     <View style={styles.container}>
       <Text>Hellos Worlds!</Text>
@@ -14,5 +14,3 @@ const styles = StyleSheet.create({
     flex: 1,
   },
 });
-
-export default Router;
